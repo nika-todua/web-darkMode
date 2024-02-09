@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffff !important;
+    color: #000 !important;
+}
+body.dark_mode {
+    background-color: #202020 !important;
+    color: #fff !important;
+}
+.dark_mode_btn {
+    position: fixed;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width:  50px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+}
+.dark_mode_btn svg {
+    width: 26px;
+    height: 26px;
+    fill: #fff;
+    pointer-events: none;
+}
+body.dark_mode .dark_mode_btn {
+    background-color: #fff;
+}
+body.dark_mode .dark_mode_btn svg {
+    fill: #000000;
+}
